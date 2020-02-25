@@ -1,5 +1,6 @@
 class Triangle
 class TriangleError < StandardError
+end 
  attr_accessor :lenght1, :length2, :lenght3, :kind
 
 def initialize(lenght1, length2, lenght3)
