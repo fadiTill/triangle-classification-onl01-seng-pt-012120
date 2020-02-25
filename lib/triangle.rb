@@ -40,9 +40,7 @@ end
  # end
  # end
  def message
-
- end TriangleError < StandardError
-   def message
-     puts " not a triangle"
+TriangleError < StandardError
+puts " not a triangle"
  end
  end
