@@ -6,7 +6,7 @@ class Triangle
     @lenght1 = lenght1
     @length2 = length2
     @lenght3 = lenght3
-    
+
    # write code here
  end
 #
@@ -39,7 +39,9 @@ end
  # end
  # end
  # end
- class TriangleError < StandardError
+ def message
+
+ end TriangleError < StandardError
    def message
      puts " not a triangle"
  end
