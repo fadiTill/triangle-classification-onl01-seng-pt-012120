@@ -7,6 +7,7 @@ def initialize(lenght1, length2, lenght3)
   @length2 = length2
   @lenght3 = lenght3
   TriangleError < StandardError
+end 
 
 
 
