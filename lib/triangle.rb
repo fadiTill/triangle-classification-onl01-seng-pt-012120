@@ -11,7 +11,7 @@ class Triangle
 #
 #
  def kind
-   if (lenght1 * length2 * lenght3) == 0 || (lenght1 + length2) <= lenght3||(length2 + lenght3) <= lenght1 || (lenght3 + lenght1 )<=length2||
+   if (lenght1 * length2 * lenght3) == 0 || (lenght1 + length2) <= lenght3||(length2 + lenght3) <= lenght1 || (lenght3 + lenght1 )<=length2
 begin
   raise TriangleError
   puts error.message
