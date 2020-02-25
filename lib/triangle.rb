@@ -6,7 +6,7 @@ def initialize(lenght1, length2, lenght3)
   @lenght1 = lenght1
   @length2 = length2
   @lenght3 = lenght3
-  
+
 
 
 #
@@ -21,7 +21,7 @@ end
 elsif lenght1 == length2 && lenght1 == lenght3
   self.kind = :equilateral
 
-elsif lenght1 == length2 || lenght1 == lenght3 ||length2 == lenght3  
+elsif lenght1 == length2 || lenght1 == lenght3 ||length2 == lenght3
   self.kind = :isosceles
 else
   self.kind = :scalene
