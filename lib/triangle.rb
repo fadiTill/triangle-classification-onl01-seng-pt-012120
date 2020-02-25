@@ -2,14 +2,13 @@ class Triangle
 
  attr_accessor :lenght1, :length2, :lenght3, :kind
 
-  def initialize(lenght1,length2, lenght3)
-    @lenght1 = lenght1
-    @length2 = length2
-    @lenght3 = lenght3
+def initialize(lenght1, length2, lenght3)
+  @lenght1 = lenght1
+  @length2 = length2
+  @lenght3 = lenght3
+  
 
-   # write code here
- end
-#
+
 #
  def kind
    if (lenght1 * length2 * lenght3) <= 0 || (lenght1 + length2) <= lenght3||(length2 + lenght3) <= lenght1 || (lenght3 + lenght1 )<=length2
