@@ -6,7 +6,7 @@ class Triangle
     @lenght1 = lenght1
     @length2 = length2
     @lenght3 = lenght3
-    @self = []
+    
    # write code here
  end
 #
