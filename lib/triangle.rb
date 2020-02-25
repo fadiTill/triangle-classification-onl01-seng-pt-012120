@@ -39,8 +39,9 @@ end
  # end
  # end
  # end
- def TriangleError
-TriangleError < StandardError
+ 
+class TriangleError < StandardError
+  def message
 puts " not a triangle"
  end
  end
